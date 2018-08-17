@@ -9,7 +9,7 @@ Another example (just to make sure it is clear):
 gimme([5, 10, 14]) => 1
 10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
-///////////////////
+/////////////////////
 My solution:
 var gimme = function (inputArray) {
   //Hack: if i don't convert to a string, the constant is also updated by the sort some how.
@@ -26,7 +26,7 @@ var gimme = function (inputArray) {
   return reconstitutedInput.indexOf(inputArray[1]);
 };
 
-///////////////////
+/////////////////////
 A better solution:
 
 var gimme = function (inputArray) {
